@@ -1,4 +1,8 @@
 /* HeroesComponent's private CSS styles */
+h2 {
+  font-weight: lighter;
+}
+
 .heroes {
   margin: 0 0 2em 0;
   list-style-type: none;
@@ -27,8 +31,8 @@ input {
   color: #333;
   text-decoration: none;
   background-color: #eee;
-  margin: 0.5em;
-  padding: 0.3em 0;
+  margin: 0.5em 0.5em 0.5em 0;
+  padding: 0.3em 9px 0.3em 0;
   height: 1.6em;
   border-radius: 4px;
   display: block;
@@ -49,6 +53,7 @@ input {
   display: inline-block;
   font-size: small;
   color: white;
+  margin: 0 10px 0 0;
   padding: 0.8em 0.7em 0 0.7em;
   background-color: #405061;
   line-height: 1em;
@@ -62,10 +67,18 @@ input {
   border-radius: 4px 0 0 4px;
 }
 
+.heroes-text {
+  margin-left: -5px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-top: 6px;
+}
+
 .add-button {
   padding: 0.5rem 1.5rem;
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin: 16px 16px 32px 0;
+  border: none;
 }
 
 .add-button:hover {
@@ -82,6 +95,7 @@ button.delete {
   font-size: 1.1rem;
   margin: 0;
   padding: 1px 10px 3px 10px;
+  border: none;
 }
 
 button.delete:hover {

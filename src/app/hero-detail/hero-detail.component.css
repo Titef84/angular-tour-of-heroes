@@ -1,4 +1,9 @@
 /* HeroDetailComponent's private CSS styles */
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
 label {
   color: #435960;
   font-weight: bold;
@@ -8,10 +13,10 @@ input {
   padding: 0.5rem;
 }
 button {
-  margin-top: 20px;
+  margin: 20px 8px 16px 0;
   background-color: #eee;
   padding: 1rem;
-  border-radius: 4px;
+  border: none;
   font-size: 1rem;
 }
 button:hover {
